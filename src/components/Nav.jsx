@@ -8,26 +8,26 @@ const Nav = () => {
                     <a className="nav-link ml-2 " href="#">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link ml-2 " href="#">About</a>
+                    <a className="nav-link ml-2 " href="#about">About</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link ml-2 " href="#">Services</a>
+                    <a className="nav-link ml-2 " href="#skills">Skills</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link ml-2 " href="#">Skill</a>
+                    <a className="nav-link ml-2 " href="#service">Services</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link ml-2 " href="#">Portfolio</a>
+                    <a className="nav-link ml-2 " href="#portfolio">Portfolio</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link ml-2 " href="#">Blog</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link ml-2 " href="#">Contact</a>
+                    <a className="nav-link ml-2 " href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     );
 }
 
-export default Nav;
+export default Nav;   
